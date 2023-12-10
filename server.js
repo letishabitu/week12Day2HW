@@ -34,7 +34,7 @@ app.get('/:', (req, res) => {
  
 });
 
-
+//I removed the space on template2
 app.get('/:numberOfBottles', (req, res) => {
     
         if(req.params.numberOfBottles){
